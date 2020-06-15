@@ -1,0 +1,41 @@
+{
+  "name": "js-tag-cloud",
+  "version": "0.0.1",
+  "description": "js-tag-cloud",
+  "main": "lib/index.js",
+  "module": "src/index",
+  "scripts": {
+    "build": "rimraf lib && webpack --config webpack.production.js",
+    "start": "webpack-dev-server --config webpack.development.js",
+    "prepublishOnly": "npm run build",
+    "test": "npm run test"
+  },
+  "directories": {
+    "example": "examples"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.9.0",
+    "@babel/core": "^7.10.2",
+    "@babel/plugin-proposal-class-properties": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
+    "babel-loader": "^8.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yaotaiyang/js-tag-cloud.git"
+  },
+  "keywords": [
+    "sprite",
+    "nodes",
+    "links"
+  ],
+  "author": "yaotaiyang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yaotaiyang/js-tag-cloud/issues"
+  },
+  "homepage": "https://github.com/yaotaiyang/js-tag-cloud#readme"
+}
