@@ -1,9 +1,9 @@
 {
   "name": "js-tag-cloud",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "js-tag-cloud",
   "main": "lib/index.js",
-  "module": "src/index",
+  "module": "lib/index.js",
   "scripts": {
     "build": "rimraf lib && webpack --config webpack.production.js",
     "start": "webpack-dev-server --config webpack.development.js",
