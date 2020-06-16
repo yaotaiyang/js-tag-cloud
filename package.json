@@ -1,6 +1,6 @@
 {
   "name": "js-tag-cloud",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "js-tag-cloud",
   "main": "lib/index.js",
   "module": "src/index",
@@ -28,9 +28,9 @@
     "url": "https://github.com/yaotaiyang/js-tag-cloud.git"
   },
   "keywords": [
-    "sprite",
-    "nodes",
-    "links"
+    "js",
+    "tag",
+    "cloud"
   ],
   "author": "yaotaiyang",
   "license": "MIT",
